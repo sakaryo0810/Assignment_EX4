@@ -17,6 +17,7 @@ int main(){
         printf("Round %d: %s\n",i+1,headsOrTails[i]==0?"Heads":"Tails");
     }
     printf("Heads: %d, Tails: %d\n",counterForHeads,3-counterForHeads);
+    printf("%s\n",counterForHeads>=2?"You won.":"You lost.");
 
     return 0;
 }
