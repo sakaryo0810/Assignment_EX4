@@ -5,7 +5,12 @@
 int main(){
     int headsOrTails[5]={0};
     int counterForHeads=0;
+    char name[20];
     srand((unsigned)time(NULL));
+
+    printf("Who are you?\n>");
+    scanf("%s",name);
+    printf("Hello, %s\n",name);
 
     for(int i=0;i<5;i++){
         headsOrTails[i]=rand()%2;
